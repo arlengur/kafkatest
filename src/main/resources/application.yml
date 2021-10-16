@@ -8,6 +8,6 @@ kafka:
 
 #okta:
 #  oauth2:
-#    issuer: https://dev-16780229.okta.com/oauth2/default
-#    client-id: 0oa26q50op8HAQBDL5d7
-#    client-secret: UmMOHE2EmqSSpSjMS96uUmGko-YajMMVp1mOGGHh
+#    issuer: https://{yourOktaDomain}/oauth2/default
+#    client-id: {yourClientID}
+#    client-secret: {yourClientSecret}
