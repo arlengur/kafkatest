@@ -1,13 +1,15 @@
 package ru.alen.kafkatest;
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class KafkatestApplication {
+@EnableAutoConfiguration
+public class KafkaTestApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(KafkatestApplication.class, args);
+		SpringApplication.run(KafkaTestApplication.class, args);
 	}
 
 }

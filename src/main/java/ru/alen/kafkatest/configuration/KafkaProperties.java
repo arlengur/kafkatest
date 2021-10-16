@@ -11,4 +11,8 @@ public class KafkaProperties {
     private String bootstrapServers;
     @Value("${kafka.groupID}")
     private String groupID;
+    @Value("${kafka.autoOffsetReset}")
+    private String autoOffsetReset;
+    @Value("${kafka.topicName}")
+    private String topicName;
 }

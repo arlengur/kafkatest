@@ -1,0 +1,5 @@
+kafka:
+  bootstrapServers: localhost:9092
+  groupID: kafka-sandbox
+  topicName: myTopic
+  autoOffsetReset: earliest
