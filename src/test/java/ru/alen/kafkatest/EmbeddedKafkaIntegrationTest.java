@@ -33,7 +33,7 @@ class EmbeddedKafkaIntegrationTest {
     ArgumentCaptor<String> userArgumentCaptor;
 
     @Test
-    void it_should_send_updated_brand_event() {
+    void testLogKafkaMessages() {
         String message = "some string";
         kafkaTemplate.send(topicName, message);
 

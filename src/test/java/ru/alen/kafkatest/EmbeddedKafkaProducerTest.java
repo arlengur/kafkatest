@@ -57,7 +57,7 @@ class EmbeddedKafkaProducerTest {
     }
 
     @Test
-    void testWriteToKafka() throws InterruptedException {
+    void testLogKafkaMessages() throws InterruptedException {
         kafkaTemplate.send(topicName, "message");
 
         ConsumerRecord<String, String> message = records.poll(500, TimeUnit.MILLISECONDS);
